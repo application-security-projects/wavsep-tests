@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>
+			<class name="application.security.wavsep.tests.RXSSWavsepTest" />
+			<class name="application.security.wavsep.tests.SQLiWavsepTest" />
+			<class name="application.security.wavsep.tests.LFIWavsepTest" />
+			<class name="application.security.wavsep.tests.RFIWavsepTest" />
+			<class name="application.security.wavsep.tests.RedirectWavsepTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

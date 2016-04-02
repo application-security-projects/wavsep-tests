@@ -36,7 +36,7 @@ public class QuickWavsepTest {
 			
 			driver.get(url.getUrl());
 			
-			System.out.println("Get URL: " + url.toString());
+			System.out.println("Get URL: " + url.getUrl());
 			
 			// First link on the page: Case01-Tag2HtmlPageScope.jsp
 			

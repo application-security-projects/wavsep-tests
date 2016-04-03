@@ -18,7 +18,7 @@ public class QuickWavsepTest {
 	// A simple test case which opens a list of URLs and clicks the first link
 	// Covers each major vulnerability category in 
 	@Test
-	public void quickWivetTest() {
+	public void quickWavsepTest() {
 
 		// Initialize WebDriver
 		WebDriver driver = new FirefoxDriver();
@@ -42,7 +42,7 @@ public class QuickWavsepTest {
 			
 			String xpathLink = "/html/body/b[13]/a";
 			
-			if(url.toString().contains("RXSS-Detection-Evaluation")||url.toString().contains("SInjection-Detection-Evaluation")){
+			if(url.getUrl().contains("RXSS-Detection-Evaluation")||url.getUrl().contains("SInjection-Detection-Evaluation")){
 				xpathLink = "/html/body/b[1]/a";
 			}
 

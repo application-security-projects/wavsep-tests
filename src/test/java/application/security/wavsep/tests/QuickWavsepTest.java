@@ -5,12 +5,10 @@ import java.util.List;
 
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import application.security.wavsep.tests.util.BrowserUtil;
 import application.security.wavsep.tests.util.Url;
 
 public class QuickWavsepTest {
@@ -21,7 +19,7 @@ public class QuickWavsepTest {
 	public void quickWavsepTest() {
 
 		// Initialize WebDriver
-		WebDriver driver = new FirefoxDriver();
+		HtmlUnitDriver driver = new HtmlUnitDriver();
 		
 		// Starting pages of the test
 		List<Url> urlList = new ArrayList<Url>();

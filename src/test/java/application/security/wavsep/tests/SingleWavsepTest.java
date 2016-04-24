@@ -2,8 +2,7 @@ package application.security.wavsep.tests;
 
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -16,7 +15,7 @@ public class SingleWavsepTest {
 	public void singleWivetTest() {
 
 		// Initialize WebDriver
-		WebDriver driver = new FirefoxDriver();
+		HtmlUnitDriver driver = new HtmlUnitDriver();
 		
 		driver.get(testURL);
 

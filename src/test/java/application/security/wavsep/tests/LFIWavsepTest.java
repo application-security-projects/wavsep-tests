@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.testng.annotations.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 import application.security.wavsep.tests.util.BrowserUtil;
 import application.security.wavsep.tests.util.Url;
@@ -17,7 +16,7 @@ public class LFIWavsepTest {
 	public void lfiWavsepTest() throws InterruptedException {
 
 		// Initialize WebDriver
-		WebDriver driver = new FirefoxDriver();
+		HtmlUnitDriver driver = new HtmlUnitDriver();
 		
 		// Starting pages of the test
 		List<Url> urlList = new ArrayList<Url>();

@@ -22,6 +22,7 @@ public class RXSSWavsepTest {
 		// Starting pages of the test
 		List<Url> urlList = new ArrayList<Url>();
 
+		int index = 0;
 		urlList.add(new Url("http://wavsep.test:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-GET/index.jsp", 33));
 		urlList.add(new Url("http://wavsep.test:8080/wavsep/active/Reflected-XSS/RXSS-Detection-Evaluation-POST/index.jsp", 33));
 		

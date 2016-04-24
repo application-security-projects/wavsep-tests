@@ -19,7 +19,7 @@ public class QuickWavsepTest {
 	public void quickWavsepTest() {
 
 		// Initialize WebDriver
-		HtmlUnitDriver driver = new HtmlUnitDriver();
+		HtmlUnitDriver driver = new HtmlUnitDriver(true);
 		
 		// Starting pages of the test
 		List<Url> urlList = new ArrayList<Url>();

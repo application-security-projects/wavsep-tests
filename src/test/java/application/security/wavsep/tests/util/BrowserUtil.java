@@ -24,6 +24,7 @@ public class BrowserUtil {
 		clickAllLinks(driver, count, offset);
 		
 	}
+
 	
 	public static void clickAllLinks(WebDriver driver, int count, int offset) throws InterruptedException{
 		

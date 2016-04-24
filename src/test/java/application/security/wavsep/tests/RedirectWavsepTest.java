@@ -30,7 +30,9 @@ public class RedirectWavsepTest {
 		for(Url url : urlList){
 			
 			driver.get(url.getUrl());
-			BrowserUtil.clickAllLinksRedirect(driver, url.getCount(),12);
+			
+			HtmlUnitDriver driverJS = new HtmlUnitDriver(true);
+			BrowserUtil.clickAllLinksRedirect(driverJS, url.getCount(),12);
 			
 		}
 
